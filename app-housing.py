@@ -10,7 +10,7 @@ df = pd.read_csv("housing.csv")
 location_types = df["ocean_proximity"].unique().tolist()
 
 # App title
-st.title("California Housing Data (1990) by Selina He")
+st.title("California Housing Data (1990) by Zirun He")
 
 # Filter by median house value
 minimum_house_value = st.slider(
